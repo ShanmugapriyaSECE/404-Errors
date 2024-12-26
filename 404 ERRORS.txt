@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Errors: The Fabulous Four Blog</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://via.placeholder.com/1600x900/ffcccb/000000?text=Happy+Girls') no-repeat center center fixed; /* Use a placeholder image URL */
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(139, 0, 0, 0.8); /* Semi-transparent Dark Red */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #FFC0CB; /* Light Pink */
+        }
+
+        main {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #8B0000; /* Dark Red */
+            border-bottom: 2px solid #8B0000;
+            padding-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .comment-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #FF69B4; /* Hot Pink */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .comment-button:hover {
+            background-color: #FF1493; /* Deep Pink */
+        }
+
+        .comments {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .comments form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .comments textarea {
+            resize: none;
+            padding: 10px;
+            font-size: 1em;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .comments button {
+            align-self: flex-start;
+            padding: 8px 15px;
+            background-color: #8B0000; /* Dark Red */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .comments button:hover {
+            background-color: #A52A2A; /* Brown */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(139, 0, 0, 0.8); /* Semi-transparent Dark Red */
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header nav ul {
+                flex-direction: column;
+            }
+
+            header nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>404 Errors: The Fabulous Four Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#shanmugapriya">ShanmugaPriya.S</a></li>
+                <li><a href="#poojalakshmi">PoojaLakshmi Prathaa</a></li>
+                <li><a href="#nivethika">Nivethika.M</a></li>
+                <li><a href="#viswajothi">Viswa Jothi.R</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="shanmugapriya">
+            <h2>ShanmugaPriya.S: The Fearless Leader</h2>
+            <p>ShanmugaPriya is the heart and soul of the group. With her fiery red hair and sparkling green eyes, she exudes confidence and determination. ShanmugaPriya is always ready to take charge and lead her friends on thrilling adventures.</p>
+            <button class="comment-button">Comments</button>
+            <div class="comments" style="display: none;">
+                <form>
+                    <textarea name="comment" placeholder="Leave a comment"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="comment-list"></div>
+            </div>
+        </section>
+        <section id="poojalakshmi">
+            <h2>PoojaLakshmi Prathaa: The Creative Genius</h2>
+            <p>PoojaLakshmi is the artist of the group. With her keen eye for detail and boundless imagination, she brings color and life to everything she touches. PoojaLakshmi's creativity knows no bounds, and she often inspires her friends to think outside the box.</p>
+            <button class="comment-button">Comments</button>
+            <div class="comments" style="display: none;">
+                <form>
+                    <textarea name="comment" placeholder="Leave a comment"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="comment-list"></div>
+            </div>
+        </section>
+        <section id="nivethika">
+            <h2>Nivethika.M: The Tech Whiz</h2>
+            <p>Nivethika is the brains behind the tech-savvy projects of the Fabulous Four. With her quick wit and love for coding, she has built numerous apps and websites that have impressed everyone, including her teachers.</p>
+            <button class="comment-button">Comments</button>
+            <div class="comments" style="display: none;">
+                <form>
+                    <textarea name="comment" placeholder="Leave a comment"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="comment-list"></div>
+            </div>
+        </section>
+        <section id="viswajothi">
+            <h2>Viswa Jothi.R: The Empathetic Listener</h2>
+            <p>Viswa Jothi is the compassionate heart of the group. With her warm smile and kind eyes, she is always there to lend a listening ear and offer support. Viswa Jothi's empathetic nature makes her the perfect confidante.</p>
+            <button class="comment-button">Comments</button>
+            <div class="comments" style="display: none;">
+                <form>
+                    <textarea name="comment" placeholder="Leave a comment"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="comment-list"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 404 Errors. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.comment-button').forEach(button => {
+                button.addEventListener('click', () => {
+                    const commentsDiv = button.nextElementSibling;
+                    commentsDiv.style.display = commentsDiv.style.display === 'none' ? 'block' : 'none';
+                });
+            });
+
+            document.querySelectorAll('form').forEach(form => {
+                form.addEventListener('submit', event => {
+                    event.preventDefault();
+
+                    const commentText = form.querySelector('textarea').value.trim();
+                    if (commentText) {
+                        const commentList = form.querySelector('.comment-list');
+                        const commentDiv = document.createElement('div');
+                        commentDiv.textContent = commentText;
+                        commentList.appendChild(commentDiv);
+                        form.querySelector('textarea').value = ''; // Clear the input after submission
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
